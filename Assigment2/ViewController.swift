@@ -33,7 +33,7 @@ class ViewController: UIViewController,
     }
     
     func numberOfSections(in tableView: UITableView) -> Int{
-        return 1  //airports.count
+        return airports.count
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
