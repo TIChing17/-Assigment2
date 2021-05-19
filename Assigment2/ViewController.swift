@@ -29,7 +29,7 @@ class ViewController: UIViewController,
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 80
+        return 140
     }
     
     func numberOfSections(in tableView: UITableView) -> Int{
@@ -75,7 +75,7 @@ class ViewController: UIViewController,
     }
     
 
-
+    
 }
 
 extension ViewController {

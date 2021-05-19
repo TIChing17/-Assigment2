@@ -9,25 +9,14 @@ import UIKit
 
 class SecondTableViewCell: UITableViewCell {
     
-    
-    @IBOutlet weak var InfoImage: UIImageView!
-    @IBOutlet weak var InfoName: UILabel!
-    @IBOutlet weak var InfoCity: UILabel!
-    @IBOutlet weak var InfoIATA: UILabel!
-    @IBOutlet weak var InfoshortName: UILabel!
+ 
     
     var airport: Airport?
     
     override func awakeFromNib() {
         super.awakeFromNib()
         
-       
         
-        InfoImage.image = UIImage(named: (airport?.imageName)!)
-        InfoName.text = airport?.name
-        InfoCity.text = airport?.country
-        InfoIATA.text = airport?.IATA
-        InfoshortName.text = airport?.shortName
 
     }
 

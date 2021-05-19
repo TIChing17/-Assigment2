@@ -9,13 +9,26 @@ import UIKit
 
 class SecondViewController: UIViewController {
     
-
+   
+    @IBOutlet weak var InfoImage: UIImageView!
+    @IBOutlet weak var infoname: UILabel!
+    @IBOutlet weak var infolocation: UILabel!
+    @IBOutlet weak var infoiata: UILabel!
+    @IBOutlet weak var infoshortname: UILabel!
+    
+    
     var airport: Airport?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         navigationItem.title = airport?.IATA
+        
+        InfoImage.image = UIImage(named: (airport?.imageName)!)
+        infoname.text = airport?.name
+        infolocation.text = airport?.country
+        infoiata.text = airport?.IATA
+        infoshortname.text = airport?.shortName
 
         // Do any additional setup after loading the view.
     }
