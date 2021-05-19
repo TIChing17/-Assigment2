@@ -164,8 +164,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="394" height="140"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <stackView opaque="NO" contentMode="left" alignment="center" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="uSB-B3-Ka6">
-                                                    <rect key="frame" x="29" y="26" width="206" height="94"/>
+                                                <stackView opaque="NO" contentMode="left" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="uSB-B3-Ka6">
+                                                    <rect key="frame" x="29" y="26" width="195" height="94"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AMS" translatesAutoresizingMaskIntoConstraints="NO" id="O5V-t1-jMh">
                                                             <rect key="frame" x="0.0" y="0.0" width="140" height="94"/>
@@ -174,17 +174,17 @@
                                                                 <constraint firstAttribute="height" constant="100" id="iME-DT-35l"/>
                                                             </constraints>
                                                         </imageView>
-                                                        <stackView opaque="NO" contentMode="left" semanticContentAttribute="forceLeftToRight" axis="vertical" distribution="fillProportionally" alignment="center" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="6oa-hT-3eh">
-                                                            <rect key="frame" x="171" y="26" width="35" height="42"/>
+                                                        <stackView opaque="NO" contentMode="left" semanticContentAttribute="forceLeftToRight" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="6oa-hT-3eh">
+                                                            <rect key="frame" x="160" y="0.0" width="35" height="94"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="機場" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m1v-Id-UZ0">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="35" height="20.5"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="35" height="39.5"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="城市" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B87-8B-DDa">
-                                                                    <rect key="frame" x="0.0" y="21.5" width="35" height="20.5"/>
+                                                                    <rect key="frame" x="0.0" y="54.5" width="35" height="39.5"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
